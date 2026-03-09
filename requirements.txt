@@ -1,0 +1,8 @@
+streamlit 
+ezdxf 
+shapely 
+plotly 
+networkx 
+numpy
+openai
+python-dotenv
