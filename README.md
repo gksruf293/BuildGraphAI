@@ -2,6 +2,10 @@
 
 https://buildgraphai-cjpdngwlnv4gvu2frjbthh.streamlit.app/
 
+<p align="center">
+  <img src="sample.png" width="900">
+</p>
+
 **2D CAD 도면(DXF) 시맨틱 파싱 및 공간 지식 그래프(GraphRAG) 추출 엔진**
 
 본 프로젝트는 복잡한 비정형 건축 CAD 도면(.dxf)을 업로드받아, AI(LLM) 기반의 시맨틱 텍스트 분석과 기하학적(Geometry) 위상 연산을 통해 도면 내 공간(Room)을 자동으로 구획합니다. 분할된 공간은 정밀한 면적, 축척, 인접성(Connectivity) 정보가 포함된 **지식 그래프(Knowledge Graph) JSON 데이터**로 변환되어, 다중 에이전트 논리 추론(예: Mafia Engine)을 위한 고정밀 공간 환경 데이터로 활용됩니다.
